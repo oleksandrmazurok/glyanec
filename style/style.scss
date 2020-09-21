@@ -474,11 +474,11 @@ footer {
   position: absolute;
   &__main {
     top: -89px;
-    right: -141px;
+    right: -120px;
   }
   &__footer {
     top: -55px;
-    right: -138px;
+    right: -120px;
   }
   h4 {
     text-align: center;
@@ -546,6 +546,27 @@ footer {
     color: #3A4047;
   }
 }
+@media (max-width: 1410px) {
+  .container{
+    width: 960px;
+  }
+  .callBack__main {
+      top: -89px;
+      right: 1px;
+    }
+  .callBack__footer {
+      top: -115px;
+      right: 1px;
+    }
+  }
+.footer__top .logo {
+  width: 200px;
+}
+.logo>img{
+  width: 150px;
+  height: auto;
+}
+
 @media (max-width: 991px) {
 
   .nav__menu {
